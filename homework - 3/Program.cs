@@ -130,7 +130,7 @@ namespace test
         {
             int i = 0;
             int max = numbers[0];
-            while (i < numbers.Length - 1)
+            while (i < numbers.Length)
             {
                 if (max < numbers[i])
                 {
